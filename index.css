@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  background-color: aquamarine;
+}
+a {
+  text-decoration: none;
+  color: cornsilk;
+  letter-spacing: 2px;
+}
+.navbar {
+  background-color: brown;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  font-size: large;
+  height: 50px;
+  padding-top: 10px;
+}
+.favourite {
+  margin-left: 20px;
+}
+.search {
+  margin: auto;
+  background-color: crimson;
+  margin-top: 50px;
+  width: 70%;
+  height: 50px;
+  border-radius: 10px 10px 10px 10px;
+  text-align: center;
+}
+.input {
+  margin-top: 10px;
+  height: 30px;
+  width: 60%;
+  border-radius: 6px 6px 6px 6px;
+}
+/* CSS for Results box*/
+
+#results {
+  width: 30%;
+  border-radius: 8px;
+  margin: auto;
+  margin-top: 8%;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  max-height: 400px;
+}
+.main-div {
+  width: 100%;
+  text-align: left;
+  color: white;
+  border-bottom: 1px solid grey;
+  background-color: darkslategray;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.not-found {
+  margin-top: 50%;
+  margin-left: 30%;
+  color: black;
+  font-weight: bolder;
+  letter-spacing: 3px;
+}
+
+.dp {
+  height: 90px;
+  margin-left: 0em;
+  width: 60px;
+}
+.img-container {
+  color: black;
+  width: 200px;
+}
+.nme {
+  text-align: center;
+  letter-spacing: 3px;
+  font-style: italic;
+  font-weight: bolder;
+  margin-top: 10px;
+  background-color: transparent;
+  height: 20px;
+  width: 100%;
+}
+.btn-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 20px;
+}
+
+.moreButton {
+  cursor: pointer;
+  background-color: chocolate;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  min-width: 60px;
+  max-height: 30px;
+  border: 2px solid yellow;
+  border-radius: 6px;
+}
+.moreButton:active {
+  background-color: white;
+}
+.favButton {
+  cursor: pointer;
+  background-color: chocolate;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  min-width: 60px;
+  max-height: 30px;
+  border: 2px solid yellow;
+  border-radius: 6px;
+}
+.favButton:active {
+  background-color: white;
+}
